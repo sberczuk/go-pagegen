@@ -11,7 +11,7 @@ func main() {
 
   // OK! multiples in a template (each?)
   // Parse input file
-  tmpl := template.Must(template.ParseFiles("dat"))
+  tmpl := template.Must(template.ParseFiles("html-template"))
 
   data := []   struct {
     Title string

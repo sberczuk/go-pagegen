@@ -1,0 +1,35 @@
+<!-- DTD for amazon books specification -->
+<!ELEMENT authors ( #PCDATA ) >
+
+<!ELEMENT book ( title, isbn, authors, website?, imageURL, categories, comments,
+seeAlso?) >
+
+<!-- should this book show up on the scmpatterns site ? -->
+<!ATTLIST book scmsite (yes|no) "no">
+
+<!-- what is the status of this book? : current, new, etc use for -->
+<!-- highlights/featured lists -->
+<!ATTLIST book status CDATA  "current">
+
+<!ELEMENT books ( book+ ) >
+
+<!ELEMENT categories ( category ) >
+
+<!ELEMENT category ( #PCDATA ) >
+
+<!ELEMENT imageURL ( #PCDATA ) >
+
+<!ELEMENT comments ( #PCDATA ) >
+
+<!ELEMENT isbn ( #PCDATA ) >
+
+<!ELEMENT title ( #PCDATA ) >
+
+<!ELEMENT seeAlso ( isbn+ ) >
+
+<!ELEMENT website ( url, description ) >
+
+<!ELEMENT url ( #PCDATA ) >
+
+<!ELEMENT description ( #PCDATA ) >
+
