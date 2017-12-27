@@ -17,6 +17,7 @@ type Event struct {
 	venueName string
 	// text or alt text
 	eventDate        string
+	eventLogo        string
 	venueURL         string
 	eventDescription string
 	presentationURL  string
@@ -76,12 +77,17 @@ func main() {
 			}
 
 			if inData {
-				//fmt.Print(tok.Name)
 				for _, item := range tok.Attr {
 					// parse href -> appropriate URL
 					// descriptoin -> text
 					// hand code dates
-					fmt.Println(">" + item.Name.Local + "=" + item.Value)
+					if item.Name.Local == "href" ||
+						item.Name.Local == "src" || item.Name.Local == "title" ||
+						item.Name.Local == "alt" {
+						// parse urls with
+						// url.Parse("http://bing.com/search?q=dotnet")
+						fmt.Println(">" + item.Name.Local + "=" + item.Value)
+					}
 					//do something with i,v
 				}
 			}
