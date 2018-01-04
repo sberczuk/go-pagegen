@@ -1,3 +1,3 @@
 {{range .}}
-{{.Id}} items are made of {{.Attributes.Title}} {{.Id}} 
+items are made of {{.Title}} {{.Isbn}}
 {{end}}

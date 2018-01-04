@@ -81,13 +81,38 @@ func main() {
 					// parse href -> appropriate URL
 					// descriptoin -> text
 					// hand code dates
-					if item.Name.Local == "href" ||
-						item.Name.Local == "src" || item.Name.Local == "title" ||
-						item.Name.Local == "alt" {
-						// parse urls with
-						// url.Parse("http://bing.com/search?q=dotnet")
-						fmt.Println(">" + item.Name.Local + "=" + item.Value)
+					var dataKey string
+					dataValue := item.Value
+					switch item.Name.Local {
+					case "href":
+						if tdCount == 1 {
+							dataKey = "venueURL"
+
+						} else if tdCount == 2 {
+							dataKey = "eventURL"
+						}
+					case "src":
+						if tdCount == 1 {
+							dataKey = "venueImage"
+						} else if tdCount == 2 {
+							dataKey = " eventImage"
+						}
+					case "alt":
+						if tdCount == 1 {
+							dataKey = "venueName"
+						} else if tdCount == 2 {
+							dataKey = "??"
+						}
+
+					case "title":
+						if tdCount == 1 {
+							dataKey = "venueName"
+						} else if tdCount == 2 {
+							dataKey = "eventTitle"
+						}
 					}
+					fmt.Println("*>" + dataKey + "=" + dataValue)
+
 					//do something with i,v
 				}
 			}
@@ -111,16 +136,20 @@ func main() {
 
 			//println(tok.Name.Local)
 		case xml.CharData:
-
+			// strip newline etc
 			if inRow {
-				fmt.Print("\n  " + string(tok))
-			} else if inData {
+				fmt.Print("\n>>>" + string(tok))
+			}
+			if inData {
 				if tdCount == 1 {
-					fmt.Println("\n-----")
+					fmt.Printf("\n+ %s --  %s", "eventVenue", string(tok))
+				} else if tdCount == 2 {
+					fmt.Printf("\n+ %s  -- %s", "eventDescription", string(tok))
+				} else {
+					fmt.Printf("\n+ %s  -- %s", "??", string(tok))
+
 				}
 
-				// push this into the correct field
-				fmt.Print(string(tok))
 			}
 		}
 	}

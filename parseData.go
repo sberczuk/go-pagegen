@@ -1,39 +1,33 @@
-package main
+package parsedata
 
 import (
-
-  "encoding/json"
-  "fmt"
-  "os"
-  "html/template"
-  //"os"
+	"encoding/json"
+	"fmt"
+	"html/template"
+	"os"
+	//"os"
 )
 
-
-
-
 type Attributes struct {
-  Title string
-  Isbn string
-  Authors string
-  ImageURL string
-  Comments string
-  // JSON seems to want attribs to be upper case?
+	Title    string
+	Isbn     string
+	Authors  string
+	ImageURL string
+	Comments string
+	// JSON seems to want attribs to be upper case?
 
 }
 type Book struct {
-  Btype string
-  Id string
-  Attributes Attributes
+	Btype      string
+	Id         string
+	Attributes Attributes
 }
 
-
-
 func main() {
-  var m Book;
+	var m Book
 
-  books :=  []byte(
-    `{  "btype": "book",  "id": "0547391404",
+	books := []byte(
+		`{  "btype": "book",  "id": "0547391404",
 
       "attributes": {
         "title": "The Storytelling Animal",
@@ -51,13 +45,11 @@ func main() {
       }
       }`)
 
-      err := json.Unmarshal(books, &m)
-      fmt.Println (err)
-      fmt.Println (m)
-      fmt.Println (m.Attributes.Title)
-      tmpl := template.Must(template.ParseFiles("html-template"))
-      tmpl.Execute(os.Stdout, books)
+	err := json.Unmarshal(books, &m)
+	fmt.Println(err)
+	fmt.Println(m)
+	fmt.Println(m.Attributes.Title)
+	tmpl := template.Must(template.ParseFiles("html-template"))
+	tmpl.Execute(os.Stdout, books)
 
-
-
-    }
+}
