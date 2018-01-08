@@ -4,14 +4,20 @@ package main
 // 2. use the JSON To make a template
 // see https://godoc.org/golang.org/x/net/html
 import (
+	"bytes"
 	"encoding/xml"
 	"fmt"
 	"io"
 	"log"
 	"os"
+	"strings"
 	//"golang.org/x/net/html"
 	//"os"
 )
+
+// new plan;
+// get the entire content of the second TD
+// if td=2 collect all content, (raw?)
 
 type Event struct {
 	venueName string
@@ -43,12 +49,15 @@ func main() {
 	// first TD = venue
 	// next TD= description
 	var currElement string
+	var buffer bytes.Buffer
+
 	var inRow bool
 	var inData bool
 	var tdCount = 0
 	//var events []Event
 	for {
 		tok, err := dec.Token()
+
 		if err == io.EOF {
 			break
 		} else if err != nil {
@@ -56,10 +65,14 @@ func main() {
 			os.Exit(2)
 		}
 		//var currentEvent Event
+		//var e Event
+		var dataKey string
+		//var dataValue string
 		switch tok := tok.(type) {
 		case xml.StartElement:
 			currElement = tok.Name.Local
 			if currElement == "tr" {
+
 				fmt.Println("\nNew Event")
 				// create a new event struct
 				//currElement = Event()
@@ -67,12 +80,17 @@ func main() {
 				inRow = true
 				tdCount = 0
 			} else if currElement == "td" {
-				inData = true
+
 				tdCount++
+				fmt.Println(tdCount)
 				if tdCount == 1 {
-					fmt.Println("\nVENUE -----")
+					//fmt.Println("\nVENUE -----")
+					// skip
 				} else if tdCount == 2 {
-					fmt.Println("\nDETAILS -----")
+					inData = true
+					//fmt.Println("\nDETAILS -----")
+				} else {
+
 				}
 			}
 
@@ -81,13 +99,13 @@ func main() {
 					// parse href -> appropriate URL
 					// descriptoin -> text
 					// hand code dates
-					var dataKey string
-					dataValue := item.Value
+					//var dataKey string
+					fmt.Println(buffer.WriteString(item.Value))
+					//fmt.Println(buffer.String())
 					switch item.Name.Local {
 					case "href":
 						if tdCount == 1 {
 							dataKey = "venueURL"
-
 						} else if tdCount == 2 {
 							dataKey = "eventURL"
 						}
@@ -95,7 +113,7 @@ func main() {
 						if tdCount == 1 {
 							dataKey = "venueImage"
 						} else if tdCount == 2 {
-							dataKey = " eventImage"
+							dataKey = "eventImage"
 						}
 					case "alt":
 						if tdCount == 1 {
@@ -111,7 +129,8 @@ func main() {
 							dataKey = "eventTitle"
 						}
 					}
-					fmt.Println("*>" + dataKey + "=" + dataValue)
+					//fmt.Println("*>" + dataKey + "=" + dataValue)
+					//buffer.WriteString("*>" + dataKey + "=" + dataValue)
 
 					//do something with i,v
 				}
@@ -126,10 +145,14 @@ func main() {
 				// push event to list
 
 			} else if currElement == "td" {
-				inData = false
+
 				if tdCount == 1 {
 					fmt.Println("\n END VENUE -----")
 				} else if tdCount == 2 {
+					inData = false
+					fmt.Println(dataKey)
+					fmt.Printf("\n%s  %s\n", "%%%>eventDescription", buffer.String())
+					buffer.Reset()
 					fmt.Println("\nEND DETAILS -----")
 				}
 			}
@@ -138,15 +161,18 @@ func main() {
 		case xml.CharData:
 			// strip newline etc
 			if inRow {
-				fmt.Print("\n>>>" + string(tok))
+				//fmt.Print("\n>>>" + string(tok))
 			}
 			if inData {
 				if tdCount == 1 {
-					fmt.Printf("\n+ %s --  %s", "eventVenue", string(tok))
+					buffer.WriteString(string(tok))
+					//fmt.Printf("\n%s  %s\n", "*>eventVenue", string(tok))
 				} else if tdCount == 2 {
-					fmt.Printf("\n+ %s  -- %s", "eventDescription", string(tok))
+					processedString := strings.Replace(string(tok), "\n", " ", -1)
+					buffer.WriteString(processedString)
+					//fmt.Printf("\n%s  %s\n", "++>eventDescription", buffer.String())
 				} else {
-					fmt.Printf("\n+ %s  -- %s", "??", string(tok))
+					fmt.Printf("\n%s  %s\n", "??", string(tok))
 
 				}
 
