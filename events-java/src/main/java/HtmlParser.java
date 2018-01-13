@@ -4,10 +4,15 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import javax.json.*;
+import javax.json.stream.JsonGenerator;
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.StringWriter;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class HtmlParser {
     public static void main(String[] args) throws IOException {
@@ -15,7 +20,19 @@ public class HtmlParser {
         Document doc = Jsoup.parse(input, "UTF-8", "http://example.com/");
         HtmlParser htmlParser = new HtmlParser();
         JsonArray jsonObject = htmlParser.processEvents(doc);
-        System.out.println(jsonObject);
+        final Map<String, Object> properties = new HashMap<>(1);
+        properties.put(JsonGenerator.PRETTY_PRINTING, true);
+        JsonWriterFactory writerFactory = Json.createWriterFactory(properties);
+        final StringWriter stringWriter = new StringWriter();
+        JsonWriter writer = writerFactory.createWriter(stringWriter);
+        writer.write(jsonObject);
+        writer.close();
+        String jsonString = stringWriter.toString();
+        System.out.println(jsonString);
+        FileWriter fileWriter = new FileWriter("events.json");
+        fileWriter.write(jsonString);
+        fileWriter.close();
+
     }
 
     public JsonArray processEvents(Document doc) {
@@ -51,8 +68,9 @@ public class HtmlParser {
     Event processEventRow(Element row) {
         Event event = new Event();
         Element venueTD = row.child(0);
-        event.setVenue(venueTD.ownText());
-        processVenueRow(venueTD);
+
+        processVenueElement(venueTD, event);
+
         Element dateTD = row.child(1);
         event.setDate(dateTD.ownText());
         processDateRow(dateTD);
@@ -75,7 +93,14 @@ public class HtmlParser {
 
     }
 
-    private void processVenueRow(Element venueTD) {
+    private void processVenueElement(Element venueTD, Event event) {
+        String venueName = venueTD.ownText();
+        Elements anchors = venueTD.getElementsByTag("a");
+        if (anchors.size() > 0) {
+            event.setVenueLink(anchors.attr("href"));
+            venueName = anchors.text();
+        }
+        event.setVenue(venueName);
 
     }
 }

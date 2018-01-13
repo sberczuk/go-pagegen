@@ -50,6 +50,25 @@ class HtmlParserTest {
         assertEquals(event.getDocumentLinkText(),"Handouts");
 
     }
+
+    @Test
+    void processEventRowWhenVenueLink(){
+        String html = "<tr><td><a href=\"http://www.oopsla.org/oopsla2003\">OOPSLA 2003</a></td>\n" +
+                "<td>October 2003</td>\n" +
+                "\n" +
+                "<td>October 2003: I moderated a panel discussion <a\n" +
+                "href=\"/events/oopsla2003panel.html\"><em>What's so eXtreme About Doing\n" +
+                "Things Right?</em></a> at <a href=\"http://www.oopsla.org/oopsla2003\">OOPSLA\n" +
+                "2003</a> in Anaheim, CA </td>\n" +
+                "</tr>";
+
+        Document doc = Jsoup.parse(wrapTestData(html));
+        Element tr = doc.getElementsByTag("tr").first();
+        Event event = htmlParser.processEventRow(tr);
+        assertEquals(event.getVenue(),"OOPSLA 2003");
+        assertEquals(event.getVenueLink(),"http://www.oopsla.org/oopsla2003");
+
+    }
     private String wrapTestData(String data){
         return "<body><table>"+data+"</table></body>";
     }
