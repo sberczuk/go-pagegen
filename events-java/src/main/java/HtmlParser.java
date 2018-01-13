@@ -18,20 +18,19 @@ public class HtmlParser {
         System.out.println(jsonObject);
     }
 
-    public JsonArray processEvents(Document doc){
+    public JsonArray processEvents(Document doc) {
         Elements rows = doc.getElementsByTag("tr");
         List<Event> events = new ArrayList<>();
-        for (Element row : rows){
-             //System.out.println(row);
-            if(row.children().size() ==3 ) {
+        for (Element row : rows) {
+            if (row.children().size() == 3) {
                 Event event = processEventRow(row);
                 events.add(event);
 
-            } else{
+            } else {
                 System.out.println("NO");
             }
         }
-       return  buildJsonObject(events);
+        return buildJsonObject(events);
     }
 
     private JsonArray buildJsonObject(List<Event> events) {
@@ -43,13 +42,13 @@ public class HtmlParser {
                     .add("description", event.getDescription())
                     .add("venue", event.getVenue())
                     .add("venueLink", event.getVenueLink())
-                    .add("documentLink",event.getDocumentLink()));
+                    .add("documentLink", event.getDocumentLink()));
         }
 
-   return arrayBuilder.build();
+        return arrayBuilder.build();
     }
 
-    private  Event processEventRow(Element row) {
+    Event processEventRow(Element row) {
         Event event = new Event();
         Element venueTD = row.child(0);
         event.setVenue(venueTD.ownText());
@@ -58,19 +57,25 @@ public class HtmlParser {
         event.setDate(dateTD.ownText());
         processDateRow(dateTD);
         Element descriptionTD = row.child(2);
-        event.setDescription(descriptionTD.ownText());
-        processDescription(descriptionTD);
+        processDescription(descriptionTD, event);
         return event;
     }
 
-    private void processDescription(Element descriptionTD) {
+    void processDescription(Element descriptionTD, Event event) {
+        event.setDescription(descriptionTD.ownText());
+        Elements anchors = descriptionTD.getElementsByTag("a");
+        if (anchors.size() > 0) {
+            event.setDocumentLink(anchors.attr("href"));
+            event.setDocumentLinkText(anchors.text());
+        }
+
     }
 
     private void processDateRow(Element dateTD) {
-        
+
     }
 
-    private  void processVenueRow(Element venueTD) {
+    private void processVenueRow(Element venueTD) {
 
     }
 }

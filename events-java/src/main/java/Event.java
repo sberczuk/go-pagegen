@@ -1,9 +1,24 @@
 public class Event {
+
+    public String getDocumentLinkText() {
+        return documentLinkText;
+    }
+
+    public void setDocumentLinkText(String documentLinkText) {
+        this.documentLinkText = documentLinkText;
+    }
+
+    //later refactor to have this in a class
+    static class EventLink{
+        public String href="";
+        public String linkText="";
+    }
     private String venue;
     private String venueLink="";
     private String date="";
     private String description="";
     private String documentLink="";
+    private String documentLinkText="";
 
     public String getVenue() {
         return venue;
