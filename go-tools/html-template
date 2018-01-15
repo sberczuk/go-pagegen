@@ -1,4 +1,3 @@
-START
 {{range .}}
 
 <p>
@@ -13,5 +12,3 @@ START
 <hr/>
 
 {{end}}
-
-End
