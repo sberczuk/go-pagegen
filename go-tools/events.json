@@ -1,0 +1,171 @@
+
+[
+    {
+        "date": "November 2017",
+        "description": "Resolve the Contraction of Specialists and Agile Teams.",
+        "venue": "Agile Developmemt Practices",
+        "venueLink": "",
+        "documentLink": "adc2017/ADC-2017-Berczuk_slides-2017-10-18.pdf"
+    },
+    {
+        "date": "December 2016",
+        "description": "Testing Specialists and Agile Teams",
+        "venue": "New England Java Users Group",
+        "venueLink": "",
+        "documentLink": "nejug2016/2016-12-testing_inAgileTeams-NEJUG-handout.pdf"
+    },
+    {
+        "date": "November 2013",
+        "description": "Adopt Before you Adapt. In Boston.",
+        "venue": "Agile Development Practices",
+        "venueLink": "",
+        "documentLink": "adc2013/sberczuk-AW7-2013-Handouts-final.pdf"
+    },
+    {
+        "date": "November 2011",
+        "description": "Agile Enablers",
+        "venue": "Boston SPIN",
+        "venueLink": "",
+        "documentLink": "spin2011/AgileEnablers-SPIN-2011-10.pdf"
+    },
+    {
+        "date": "March 2011",
+        "description": "Agile Enablers",
+        "venue": "Software Quality Group of New England",
+        "venueLink": "",
+        "documentLink": "sqgne2011/AgileEnablers-sqgne-2011.pdf"
+    },
+    {
+        "date": "Occasional Tutorial",
+        "description": ": Execution at Agile New Engand",
+        "venue": "Agile New England",
+        "venueLink": "",
+        "documentLink": "boston/agile101.html"
+    },
+    {
+        "date": "February 2010",
+        "description": "I was in a webinar: on 16 Feb 2010.",
+        "venue": "Wan Disco Corporation",
+        "venueLink": "http://www.wandisco.com/",
+        "documentLink": "agile-svn-2010-02.pdf"
+    },
+    {
+        "date": "October 2009",
+        "description": "I gave a tutorial: at the 2009 October 23, 2009 in Cambridge, MA",
+        "venue": "The 2009 Software Test & Performance Confererence",
+        "venueLink": "",
+        "documentLink": "stp2009/berczuk-stpcon-2009-10-final.pdf"
+    },
+    {
+        "date": "November 2008",
+        "description": "I gave a tutorial: and a class, at the 2008 November 10-14, 2008 Orlando, FL",
+        "venue": "The 2008 Agile Development Practices Conference",
+        "venueLink": "",
+        "documentLink": "adp2008/Berczuk-SCM%20Esssentials-final.pdf"
+    },
+    {
+        "date": "October 2008",
+        "description": "I lead a roundtable: at the 2008 October 30, 2008 in Boston, MA",
+        "venue": "SD Best Practices 2008",
+        "venueLink": "",
+        "documentLink": ""
+    },
+    {
+        "date": "March 2008",
+        "description": "on March 27, 2008",
+        "venue": "New England Agile Bazaar (now Agile New England)",
+        "venueLink": "",
+        "documentLink": "boston/AgileBazaar-2008-03-handouts.pdf"
+    },
+    {
+        "date": "March 2008",
+        "description": "on March 18, 2008",
+        "venue": "Boston SPIN",
+        "venueLink": "http://www.boston-spin.org/",
+        "documentLink": "boston/Spin2008-Berczuk-handouts-s.pdf"
+    },
+    {
+        "date": "September 2007",
+        "description": "I taught a class, and leading a Birds-of-a-Feather session, at .",
+        "venue": "SD Best Practices 2007",
+        "venueLink": "",
+        "documentLink": "sdbp2007/Berczuk_sdbp2007_Web.pdf"
+    },
+    {
+        "date": "September 2006",
+        "description": "On September 14, 2006 I taught a class, at .",
+        "venue": "SD Best Practices 2006",
+        "venueLink": "",
+        "documentLink": "sdbp2006/berczuk-effective-scm-sdbp2006.pdf"
+    },
+    {
+        "date": "March 2006",
+        "description": "On March 1, 2006 I participated in a webcast: Tofu and Patterns: Structuring Codelines for Agile Development with Laura Wingerd of Perforce Software. You can view a in PDF.",
+        "venue": "Perforce Software Webinar",
+        "venueLink": "http://www.perforce.com/",
+        "documentLink": "webinars/Perforce2006_03-FINAL.pdf"
+    },
+    {
+        "date": "October 2005",
+        "description": "October 2005: I was Panels Chair for OOPSLA 2005 at the October 16-21, 2005 in San Diego, CA.",
+        "venue": "OOPSLA 2005",
+        "venueLink": "http://www.oopsla.org/2005/",
+        "documentLink": "http://www.oopsla.org/2005/"
+    },
+    {
+        "date": "March 2006",
+        "description": "Lifecycle Management Starts at Home: Patterns for Effective Software Configuration Management",
+        "venue": "ALM Expo",
+        "venueLink": "",
+        "documentLink": "almexpo2006"
+    },
+    {
+        "date": "September 2005",
+        "description": "September 2005: I gave a class Collaborate, Build, Test, Deploy: Essential SCM Practices for Teams at September 26-29, 2005 in Boston, MA. You can view a .",
+        "venue": "SD Best Practices 2005",
+        "venueLink": "",
+        "documentLink": "sdbp2005/102.pdf"
+    },
+    {
+        "date": "December 2004",
+        "description": "December 2004: I gave a class, and moderated a panel discussion, at the Software Test & Performance Conference December 7-9, 2004 in Baltimore, MD. You can view the from the class.",
+        "venue": "The 2004 Software Test and Performance Conference",
+        "venueLink": "http://www.stpcon.com/",
+        "documentLink": "stp2004/STP2004-classHandouts.pdf"
+    },
+    {
+        "date": "September 2004",
+        "description": "September 2004: I gave a Tutorial, Effective Teamwork and Practical Integration: Software Configuration Management in Context at in Boston, MA. You can view the from the class.",
+        "venue": "SD Best Practices 2004 in Boston",
+        "venueLink": "",
+        "documentLink": "sdbp2004/SDBP_Effective_Teamwork_handouts.pdf"
+    },
+    {
+        "date": "September 2004",
+        "description": "September 2004: I was a shepherd for PLoP 2004, the 10th Pattern Language of Programs Conference.",
+        "venue": "The 2004 Pattern Languages of Programs Conference",
+        "venueLink": "http://hillside.net/plop/2004/",
+        "documentLink": ""
+    },
+    {
+        "date": "June 2003",
+        "description": "June 2003: I gave a tutorial on at the Agile Development Conference in Salt Lake City, UT (June 25-28, 2003). You can view the from the tutorial.",
+        "venue": "The 2003 Agile Development Conferece",
+        "venueLink": "http://www.agiledevelopmentconference.com",
+        "documentLink": "adc2003/"
+    },
+    {
+        "date": "June 2004",
+        "description": "I lead a peer-to-peer session, at the in Salt Lake City, UT (June 22-26, 2004)",
+        "venue": "2004 Agile Development Conference",
+        "venueLink": "http://www.agiledevelopmentconference.com",
+        "documentLink": "http://www.agiledevelopmentconference.com/schedule/peertopeer.html#PP1"
+    },
+    {
+        "date": "October 2003",
+        "description": "October 2003: I moderated a panel discussion at in Anaheim, CA",
+        "venue": "OOPSLA 2003",
+        "venueLink": "http://www.oopsla.org/oopsla2003",
+        "documentLink": "/events/oopsla2003panel.html"
+    }
+]

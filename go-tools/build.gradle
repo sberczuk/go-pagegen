@@ -1,0 +1,8 @@
+//https://github.com/gogradle/gogradle/blob/master/docs/getting-started.md
+plugins {
+    id 'com.github.blindpirate.gogradle' version '0.8.0'
+}
+
+golang {
+    packagePath = 'main' // go import path of project to be built, NOT local file system path!
+}

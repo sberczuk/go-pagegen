@@ -1,0 +1,17 @@
+START
+{{range .}}
+
+<p>
+<div class="date">{{.Date}}</div>
+<div class="venue"> at {{.Venue}}</div>
+<div class="description"> {{.Description}}
+{{if .DocumentLink}}
+  <a href="{{.DocumentLink}}">handout</a>
+{{end}}
+</div>
+</p>
+<hr/>
+
+{{end}}
+
+End
