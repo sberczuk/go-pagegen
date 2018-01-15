@@ -30,8 +30,8 @@ func main() {
 	}
 	var events []Event
 	json.Unmarshal(data, &events)
-	//fmt.Println(events) // works!
 
+	// save to file
 	tmpl.Execute(os.Stdout, events)
 
 }

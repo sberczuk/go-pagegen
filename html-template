@@ -1,3 +1,0 @@
-{{range .}}
-items are made of {{.Title}} {{.Isbn}}
-{{end}}
