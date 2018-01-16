@@ -14,12 +14,20 @@
 {{range .}}
 <article>
 								<header>
-									<h3><div class="description">{{.Venue}} title
+									<h3>
                   {{if .DocumentLink}}
-                    <a href="{{.DocumentLink}}">handout</a>
+                    <a href="{{.DocumentLink}}">{{.Title}}</a>
+										{{else}}
+										{{.Title}}
                   {{end}}
                   </h3>
-									<h4>{{.Date}}</h4>
+									<h4>
+									{{if .VenueLink}}
+									<a href="{{.VenueLink}}">{{.Venue}}</a>
+										{{else}}
+										{{.Venue}} {{.Date}}
+									{{end}}
+									</h4>
 								</header>
 								<p>{{.Description}}</p>
 							</article>

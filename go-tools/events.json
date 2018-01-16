@@ -2,25 +2,25 @@
 [
     {
         "date": "November 2017",
-        "description": "Resolve the Contraction of Specialists and Agile Teams.",
+        "description": "A 1 hour class about Specialists can help agile teams become more self-sufficient and self-organizing.",
         "title": "Resolve the Contraction of Specialists and Agile Teams.",
-        "venue": "Agile Developmemt Practices",
+        "venue": "The 2017 Agile Development Practices Conference in Orlando, FL.",
         "venueLink": "",
         "documentLink": "adc2017/ADC-2017-Berczuk_slides-2017-10-18.pdf"
     },
     {
         "date": "December 2016",
-        "description": "Testing Specialists and Agile Teams",
+        "description": "A presentation about how to integrate Testing Specialists with Agile Teams in a way that helps teams develop testing skills. Part of a Fitbit at NEJUG evening.",
         "title": "Testing Specialists and Agile Teams",
         "venue": "New England Java Users Group",
-        "venueLink": "",
+        "venueLink": "http://www.nejug.org/",
         "documentLink": "nejug2016/2016-12-testing_inAgileTeams-NEJUG-handout.pdf"
     },
     {
         "date": "November 2013",
-        "description": "Adopt Before you Adapt. In Boston.",
-        "title": "Adopt Before you Adapt. In Boston.",
-        "venue": "Agile Development Practices",
+        "description": "A class explaining when best to adapt agile practices. Many teams fail before they get practice with canonoical agile practices.",
+        "title": "Adopt Before you Adapt",
+        "venue": "2013 Agile Development Practices Conference, in Boston",
         "venueLink": "",
         "documentLink": "adc2013/sberczuk-AW7-2013-Handouts-final.pdf"
     },
@@ -28,8 +28,8 @@
         "date": "November 2011",
         "description": "Agile Enablers",
         "title": "Agile Enablers",
-        "venue": "Boston SPIN",
-        "venueLink": "",
+        "venue": "Boston Software Process Improvement Network",
+        "venueLink": "http://boston-spin.org/",
         "documentLink": "spin2011/AgileEnablers-SPIN-2011-10.pdf"
     },
     {
@@ -45,7 +45,7 @@
         "description": ": Execution at Agile New Engand",
         "title": ": Execution at Agile New Engand",
         "venue": "Agile New England",
-        "venueLink": "",
+        "venueLink": "https://www.agilenewengland.org/",
         "documentLink": "boston/agile101.html"
     },
     {

@@ -11,6 +11,8 @@ import (
 type Event struct {
 	Venue        string `json:"venue"`
 	Date         string `json:"date"`
+	parsedDate   string `json:"parsedDate"`
+	Title        string `json:"title"`
 	Description  string `json:"description"`
 	VenueLink    string `json:"venueLink"`
 	DocumentLink string `json:"documentLink"`
