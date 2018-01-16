@@ -9,14 +9,14 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.StringWriter;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 public class HtmlParser {
     public static void main(String[] args) throws IOException {
-        File input = new File("/Users/sberczuk/code/personal/go-pagegen/events/events.html");
+        File input = new File("./events.html");
         Document doc = Jsoup.parse(input, "UTF-8", "http://example.com/");
         HtmlParser htmlParser = new HtmlParser();
         JsonArray jsonObject = htmlParser.processEvents(doc);
@@ -51,12 +51,23 @@ public class HtmlParser {
     }
 
     private JsonArray buildJsonObject(List<Event> events) {
-        JsonBuilderFactory factory = Json.createBuilderFactory(null);
+        // sort events
+       events.sort(new Comparator<Event>() {
+           @Override
+           public int compare(Event o1, Event o2) {
+               return -o1.getParsedDate().compareTo(o2.getParsedDate());
+           }
+       });
+       JsonBuilderFactory factory = Json.createBuilderFactory(null);
         JsonArrayBuilder arrayBuilder = factory.createArrayBuilder();
         //JsonArray value = arrayBuilder
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy.MM.dd");
         for (Event event : events) {
-            arrayBuilder.add(factory.createObjectBuilder().add("date", event.getDate())
+            arrayBuilder.add(factory.createObjectBuilder()
+                    .add("date", event.getDate())
+                    .add("parsedDate", simpleDateFormat.format(event.getParsedDate()))
                     .add("description", event.getDescription())
+                    .add("title", event.getDescription())
                     .add("venue", event.getVenue())
                     .add("venueLink", event.getVenueLink())
                     .add("documentLink", event.getDocumentLink()));
@@ -72,8 +83,8 @@ public class HtmlParser {
         processVenueElement(venueTD, event);
 
         Element dateTD = row.child(1);
-        event.setDate(dateTD.ownText());
-        processDateRow(dateTD);
+
+        processDateRow(dateTD, event);
         Element descriptionTD = row.child(2);
         processDescription(descriptionTD, event);
         return event;
@@ -89,7 +100,17 @@ public class HtmlParser {
 
     }
 
-    private void processDateRow(Element dateTD) {
+    private void processDateRow(Element dateTD, Event event) {
+        String dateText = dateTD.ownText();
+        event.setDate(dateText);
+        DateFormat df = new SimpleDateFormat("MMMMM yyyy");
+        try {
+            Date parse = df.parse(dateText);
+            event.setParsedDate(parse);
+        } catch (ParseException e) {
+            event.setParsedDate(new Date());
+            e.printStackTrace();
+        }
 
     }
 

@@ -1,14 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Press - jnd.org</title>
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+    <body id="essays">
+    <section id="recent" class="span-15">
+            <h2>Presentations</h2>
+
 {{range .}}
+<article>
+								<header>
+									<h3><div class="description">{{.Venue}} title
+                  {{if .DocumentLink}}
+                    <a href="{{.DocumentLink}}">handout</a>
+                  {{end}}
+                  </h3>
+									<h4>{{.Date}}</h4>
+								</header>
+								<p>{{.Description}}</p>
+							</article>
 
-<p>
-<div class="date">{{.Date}}</div>
-<div class="venue"> at {{.Venue}}</div>
-<div class="description"> {{.Description}}
-{{if .DocumentLink}}
-  <a href="{{.DocumentLink}}">handout</a>
-{{end}}
-</div>
-</p>
-<hr/>
 
 {{end}}
+
+
+</body>
+
+</html>

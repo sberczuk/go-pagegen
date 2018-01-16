@@ -1,3 +1,5 @@
+import java.util.Date;
+
 public class Event {
 
     public String getDocumentLinkText() {
@@ -8,6 +10,22 @@ public class Event {
         this.documentLinkText = documentLinkText;
     }
 
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public Date getParsedDate() {
+        return parsedDate;
+    }
+
+    public void setParsedDate(Date parsedDate) {
+        this.parsedDate = parsedDate;
+    }
+
     //later refactor to have this in a class
     static class EventLink{
         public String href="";
@@ -15,7 +33,9 @@ public class Event {
     }
     private String venue;
     private String venueLink="";
+    private Date parsedDate;
     private String date="";
+    private String title ="";
     private String description="";
     private String documentLink="";
     private String documentLinkText="";
