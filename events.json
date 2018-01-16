@@ -3,10 +3,10 @@
     {
         "date": "Occasional Tutorial",
         "parsedDate": "2018.01.16",
-        "description": ": Execution at Agile New Engand",
-        "title": ": Execution at Agile New Engand",
+        "description": "I let a short tutorial during the pre-session time at Agile New England on agile technical pracices and how they relate to planning processes.",
+        "title": "Agile 101:Execution at Agile New Engand",
         "venue": "Agile New England",
-        "venueLink": "",
+        "venueLink": "https://www.agilenewengland.org/",
         "documentLink": "boston/agile101.html"
     },
     {
@@ -14,17 +14,17 @@
         "parsedDate": "2017.11.01",
         "description": "Resolve the Contraction of Specialists and Agile Teams.",
         "title": "Resolve the Contraction of Specialists and Agile Teams.",
-        "venue": "Agile Developmemt Practices",
+        "venue": "Agile Development Practices",
         "venueLink": "",
         "documentLink": "adc2017/ADC-2017-Berczuk_slides-2017-10-18.pdf"
     },
     {
         "date": "December 2016",
         "parsedDate": "2016.12.01",
-        "description": "Testing Specialists and Agile Teams",
+        "description": "Testing Specialists and Agile Teams. A Fitbit NEJUG Night",
         "title": "Testing Specialists and Agile Teams",
         "venue": "New England Java Users Group",
-        "venueLink": "",
+        "venueLink": "http://www.nejug.org/",
         "documentLink": "nejug2016/2016-12-testing_inAgileTeams-NEJUG-handout.pdf"
     },
     {
@@ -41,8 +41,8 @@
         "parsedDate": "2011.11.01",
         "description": "Agile Enablers",
         "title": "Agile Enablers",
-        "venue": "Boston SPIN",
-        "venueLink": "",
+        "venue": "Boston Software Process Improvement Network",
+        "venueLink": "http://boston-spin.org/",
         "documentLink": "spin2011/AgileEnablers-SPIN-2011-10.pdf"
     },
     {
@@ -51,7 +51,7 @@
         "description": "Agile Enablers",
         "title": "Agile Enablers",
         "venue": "Software Quality Group of New England",
-        "venueLink": "",
+        "venueLink": "http://sqgne.org/",
         "documentLink": "sqgne2011/AgileEnablers-sqgne-2011.pdf"
     },
     {
