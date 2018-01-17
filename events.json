@@ -3,7 +3,7 @@
     {
         "date": "Occasional Tutorial",
         "parsedDate": "2018.01.16",
-        "description": "I let a short tutorial during the pre-session time at Agile New England on agile technical pracices and how they relate to planning processes.",
+        "description": "I lead a short tutorial during the pre-session time at Agile New England on agile technical pracices and how they relate to planning processes.",
         "title": "Agile 101:Execution at Agile New Engand",
         "venue": "Agile New England",
         "venueLink": "https://www.agilenewengland.org/",
@@ -12,9 +12,9 @@
     {
         "date": "November 2017",
         "parsedDate": "2017.11.01",
-        "description": "Resolve the Contraction of Specialists and Agile Teams.",
+        "description": "I gave a class on how to use Specialists to fill gaps and also help agile teams become more self-sufficient.",
         "title": "Resolve the Contraction of Specialists and Agile Teams.",
-        "venue": "Agile Development Practices",
+        "venue": "Agile Development Practices 2017 in Orlando",
         "venueLink": "",
         "documentLink": "adc2017/ADC-2017-Berczuk_slides-2017-10-18.pdf"
     },
@@ -23,23 +23,23 @@
         "parsedDate": "2016.12.01",
         "description": "Testing Specialists and Agile Teams. A Fitbit NEJUG Night",
         "title": "Testing Specialists and Agile Teams",
-        "venue": "New England Java Users Group",
+        "venue": "New England Java Users Group, Burlington MA",
         "venueLink": "http://www.nejug.org/",
         "documentLink": "nejug2016/2016-12-testing_inAgileTeams-NEJUG-handout.pdf"
     },
     {
         "date": "November 2013",
         "parsedDate": "2013.11.01",
-        "description": "Adopt Before you Adapt. In Boston.",
-        "title": "Adopt Before you Adapt. In Boston.",
-        "venue": "Agile Development Practices",
+        "description": "Although agile principles sound simple, adopting agile is often extremely difficult. Some teams adopting agile start by making changes and tweaks to prescribed processes, which can cause problems. This class explains how following the recommended practices of your chosen agile method for a time will help you internalize the process and leverage the experiences of those who developed the method. Premature customization can lead to more problems and eventually to failure.",
+        "title": "Adopt Before you Adapt",
+        "venue": "Agile Development Practices 2013 in Boston",
         "venueLink": "",
         "documentLink": "adc2013/sberczuk-AW7-2013-Handouts-final.pdf"
     },
     {
         "date": "November 2011",
         "parsedDate": "2011.11.01",
-        "description": "Agile Enablers",
+        "description": "Agile software development relies on feedback, and the best feedback on the state of the project comes from seeing working software. Good version management, build and quality assurance are the technical practices that allow you to understand how far developed your system is and what needs to be done. We'll talk about the role of build, scm an QA in laying the foundation for a successful agile team, and discuss the role of DevOps in helping a team keep the agile contract of ready to ship code.",
         "title": "Agile Enablers",
         "venue": "Boston Software Process Improvement Network",
         "venueLink": "http://boston-spin.org/",
@@ -48,7 +48,7 @@
     {
         "date": "March 2011",
         "parsedDate": "2011.03.01",
-        "description": "Agile Enablers",
+        "description": "Many conversations about Agile Software Development focus on development and project management. Since feedback is essential to transition to agile software development and to maintain the values of an agile team, build, configuration management, and QA practices are essential factors in determining how agile a team will be. In this tall you'll learn how QA, and release management practices can help an team be more agile, and how these roles can change once a team is embracing agile software development.",
         "title": "Agile Enablers",
         "venue": "Software Quality Group of New England",
         "venueLink": "http://sqgne.org/",
@@ -75,18 +75,30 @@
     {
         "date": "November 2008",
         "parsedDate": "2008.11.01",
-        "description": "I gave a tutorial: and a class, at the 2008 November 10-14, 2008 Orlando, FL",
-        "title": "I gave a tutorial: and a class, at the 2008 November 10-14, 2008 Orlando, FL",
+        "description": "I gave a tutorial: and a class, at the 2008 November 10-14, 2008 Orlando, FL. Version management, build, and release practices are a key part of an effective agile software development environment. Many teams are puzzled by how to translate standard SCM “Best Practices” to an agile environment. In a effort to move more quickly some teams ignore basic software configuration management practices with the result they  hit stumbling blocks down the line. Others maintain many of their old practices with the result that their teams are  less agile.
+
+This tutorial will start with an overview of key SCM concepts, including codeline management,, build and release, and branching. We will them discuss how basic SCM principles apply to an agile team, and how  you apply SCM Practices can help make your team more or less agile, and how they can ease the transition to agile when you have a legacy code base to work with. We’ll discuss questions such as when branching makes sense, when how using Scrum or XP affects how you think about version management, and the importance of simple but effective SCM practices to agile software development. Attendees should be familiar with some basic version management tools like CVS or subversion. This tutorial will focus on practices, not tools, but will reference tools such as ant, maven , subversion in examples.  Developers, team leads, project managers and release engineers will find this class useful.",
+        "title": "Software Configuration Management for Agile Development",
         "venue": "The 2008 Agile Development Practices Conference",
+        "venueLink": "",
+        "documentLink": "adp2008/Berczuk-SCM%20Esssentials-final.pdf"
+    },
+    {
+        "date": "November 2008",
+        "parsedDate": "2008.11.01",
+        "description": "I gave  a class, at the 2008 November 10-14, 2008 Orlando, FL. Applying agile methods to legacy code is challenging. You have to live with code that is not as testable, or as modular as you’d like, and you have to manage support concerns that disrupt your iteration plan, while trying to establish new testing and build practices. Even if your project is agile, you may have dependencies on legacy projects that are not be delivering at iteration boundaries. Steve Berczuk explains how to be agile with a legacy code base using design, testing, build, and software configuration management practices so that you can be agile when your code is not while managing the flow of change required to support released code. At the end of the class you will better understand how to balance the requirements of working with an existing code base with the desire to have a more agile development environment.
+",
+        "title": "Getting Agile with Legacy Code",
+        "venue": "The 2008 Agile Development Practices Conference in Orlando, FL",
         "venueLink": "",
         "documentLink": "adp2008/Berczuk-SCM%20Esssentials-final.pdf"
     },
     {
         "date": "October 2008",
         "parsedDate": "2008.10.01",
-        "description": "I lead a roundtable: at the 2008 October 30, 2008 in Boston, MA",
-        "title": "I lead a roundtable: at the 2008 October 30, 2008 in Boston, MA",
-        "venue": "SD Best Practices 2008",
+        "description": "I lead a roundtable: at the 2008 October 30, 2008 in Boston, MA. Agile Methods discuss practices teams should follow, however, not all teams can, or should, follow every practice to the letter. It's hard to understand what practices you can compromise and which ones are important. Do you really have to test first? Or is soon OK? Can you adjust sprint boundaries mid-iteration? Some compromises to the agile dogma can be made while still staying in the spirit of your method. Some compromises make it harder to benefit from agile practices. In this session, you will learn how to make pragmatic decisions about how to practice -- and benefit from -- agile software development.",
+        "title": "Roundtable on deciding how dogmatic to be about practices.",
+        "venue": "SD Best Practices 2008, Boston, MA",
         "venueLink": "",
         "documentLink": ""
     },
@@ -102,8 +114,10 @@
     {
         "date": "March 2008",
         "parsedDate": "2008.03.01",
-        "description": "on March 18, 2008",
-        "title": "on March 18, 2008",
+        "description": "On March 18, 2008 I presented. Workspace Management is often an afterthought for teams, agile or not. For teams to work effectively developers need machanisms to help ensure that their changes will integrate well with others' work. Good workspace practices also improve team productivity by avoiding  "works for me" conversations and by decreasing ramp up times when people start new projects.
+
+This talk will discuss some of the patterns and practices for workspace management that you can apply to help developers be more effective.",
+        "title": "Developer Workspaces Enable Agile Teams",
         "venue": "Boston SPIN",
         "venueLink": "http://www.boston-spin.org/",
         "documentLink": "boston/Spin2008-Berczuk-handouts-s.pdf"
