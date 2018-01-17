@@ -3,36 +3,36 @@
     {
         "date": "Occasional Tutorial",
         "parsedDate": "2018.01.16",
-        "description": ": Execution at Agile New Engand",
-        "title": ": Execution at Agile New Engand",
+        "description": "I lead a short tutorial during the pre-session time at Agile New England on agile technical pracices and how they relate to planning processes.",
+        "title": "Agile 101:Execution at Agile New Engand",
         "venue": "Agile New England",
-        "venueLink": "",
+        "venueLink": "https://www.agilenewengland.org/",
         "documentLink": "boston/agile101.html"
     },
     {
         "date": "November 2017",
         "parsedDate": "2017.11.01",
-        "description": "Resolve the Contraction of Specialists and Agile Teams.",
+        "description": "I gave a class on how to use Specialists to fill gaps and also help agile teams become more self-sufficient.",
         "title": "Resolve the Contraction of Specialists and Agile Teams.",
-        "venue": "Agile Developmemt Practices",
+        "venue": "Agile Development Practices 2017 in Orlando",
         "venueLink": "",
         "documentLink": "adc2017/ADC-2017-Berczuk_slides-2017-10-18.pdf"
     },
     {
         "date": "December 2016",
         "parsedDate": "2016.12.01",
-        "description": "Testing Specialists and Agile Teams",
+        "description": "Testing Specialists and Agile Teams. A Fitbit NEJUG Night",
         "title": "Testing Specialists and Agile Teams",
-        "venue": "New England Java Users Group",
-        "venueLink": "",
+        "venue": "New England Java Users Group, Burlington MA",
+        "venueLink": "http://www.nejug.org/",
         "documentLink": "nejug2016/2016-12-testing_inAgileTeams-NEJUG-handout.pdf"
     },
     {
         "date": "November 2013",
         "parsedDate": "2013.11.01",
-        "description": "Adopt Before you Adapt. In Boston.",
-        "title": "Adopt Before you Adapt. In Boston.",
-        "venue": "Agile Development Practices",
+        "description": "Although agile principles sound simple, adopting agile is often extremely difficult. Some teams adopting agile start by making changes and tweaks to prescribed processes, which can cause problems. This class explains how following the recommended practices of your chosen agile method for a time will help you internalize the process and leverage the experiences of those who developed the method. Premature customization can lead to more problems and eventually to failure.",
+        "title": "Adopt Before you Adapt",
+        "venue": "Agile Development Practices 2013 in Boston",
         "venueLink": "",
         "documentLink": "adc2013/sberczuk-AW7-2013-Handouts-final.pdf"
     },
@@ -41,8 +41,8 @@
         "parsedDate": "2011.11.01",
         "description": "Agile Enablers",
         "title": "Agile Enablers",
-        "venue": "Boston SPIN",
-        "venueLink": "",
+        "venue": "Boston Software Process Improvement Network",
+        "venueLink": "http://boston-spin.org/",
         "documentLink": "spin2011/AgileEnablers-SPIN-2011-10.pdf"
     },
     {
@@ -51,7 +51,7 @@
         "description": "Agile Enablers",
         "title": "Agile Enablers",
         "venue": "Software Quality Group of New England",
-        "venueLink": "",
+        "venueLink": "http://sqgne.org/",
         "documentLink": "sqgne2011/AgileEnablers-sqgne-2011.pdf"
     },
     {
@@ -120,8 +120,8 @@
     {
         "date": "September 2006",
         "parsedDate": "2006.09.01",
-        "description": "On September 14, 2006 I taught a class on AGile Software Configuration Management",
-        "title": " Collaborate, Integrate, Test, Deploy: Essential SCM Practices for Teams ",
+        "description": "On September 14, 2006 I taught a class, at .",
+        "title": "On September 14, 2006 I taught a class, at .",
         "venue": "SD Best Practices 2006",
         "venueLink": "",
         "documentLink": "sdbp2006/berczuk-effective-scm-sdbp2006.pdf"
@@ -131,7 +131,7 @@
         "parsedDate": "2006.03.01",
         "description": "On March 1, 2006 I participated in a webcast: Tofu and Patterns: Structuring Codelines for Agile Development with Laura Wingerd of Perforce Software. You can view a in PDF.",
         "title": "On March 1, 2006 I participated in a webcast: Tofu and Patterns: Structuring Codelines for Agile Development with Laura Wingerd of Perforce Software. You can view a in PDF.",
-        "venue": "Webinar with Perforce Software",
+        "venue": "",
         "venueLink": "",
         "documentLink": "webinars/Perforce2006_03-FINAL.pdf"
     },
@@ -140,7 +140,7 @@
         "parsedDate": "2006.03.01",
         "description": "Lifecycle Management Starts at Home: Patterns for Effective Software Configuration Management",
         "title": "Lifecycle Management Starts at Home: Patterns for Effective Software Configuration Management",
-        "venue": "ALM Expo (an Online Conference)",
+        "venue": "ALM Expo",
         "venueLink": "",
         "documentLink": "almexpo2006"
     },
@@ -158,7 +158,7 @@
         "parsedDate": "2005.09.01",
         "description": "September 2005: I gave a class Collaborate, Build, Test, Deploy: Essential SCM Practices for Teams at September 26-29, 2005 in Boston, MA. You can view a .",
         "title": "September 2005: I gave a class Collaborate, Build, Test, Deploy: Essential SCM Practices for Teams at September 26-29, 2005 in Boston, MA. You can view a .",
-        "venue": "Software Development Best Practices 2005",
+        "venue": "SD Best Practices 2005",
         "venueLink": "",
         "documentLink": "sdbp2005/102.pdf"
     },
@@ -175,7 +175,7 @@
         "date": "September 2004",
         "parsedDate": "2004.09.01",
         "description": "September 2004: I gave a Tutorial, Effective Teamwork and Practical Integration: Software Configuration Management in Context at in Boston, MA. You can view the from the class.",
-        "title": "Effective Teamwork and Practical Integration: Software Configuration Management in Context at in Boston, MA. You can view the from the class.",
+        "title": "September 2004: I gave a Tutorial, Effective Teamwork and Practical Integration: Software Configuration Management in Context at in Boston, MA. You can view the from the class.",
         "venue": "SD Best Practices 2004 in Boston",
         "venueLink": "",
         "documentLink": "sdbp2004/SDBP_Effective_Teamwork_handouts.pdf"
@@ -210,8 +210,8 @@
     {
         "date": "June 2003",
         "parsedDate": "2003.06.01",
-        "description": "June 2003: I gave a tutorial on Patterns for Agile Software Configuration Management at the in Salt Lake City, UT (June 25-28, 2003). You can view the from the tutorial.",
-        "title": "Patterns for Agile Software Configuration Management ",
+        "description": "June 2003: I gave a tutorial on at the in Salt Lake City, UT (June 25-28, 2003). You can view the from the tutorial.",
+        "title": "June 2003: I gave a tutorial on at the in Salt Lake City, UT (June 25-28, 2003). You can view the from the tutorial.",
         "venue": "The 2003 Agile Development Conferece",
         "venueLink": "http://www.agiledevelopmentconference.com",
         "documentLink": "http://www.agiledevelopmentconference.com/"
