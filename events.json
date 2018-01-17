@@ -12,9 +12,9 @@
     {
         "date": "November 2017",
         "parsedDate": "2017.11.01",
-        "description": "I gave a class on how to use Specialists to fill gaps and also help agile teams become more self-sufficient.",
+        "description": "I gave a class on how to use Specialists to fill gaps and also help agile teams become more self-sufficient. As teams grow, organizations often draw a distinction between feature teams, which deliver the visible business value to the user, and component teams, which manage shared work. Steve Berczuk says that this distinction can help organizations be more productive and scale effectively, but he recognizes that not all shared work fits into this model. Some work is best handled by “specialists,” that is people with unique skills. Although teams composed entirely of T-shaped people is ideal, certain skills are hard to come by and are used irregularly across an organization. Since these specialists often need to work closely with teams, rather than working from their own backlog, they don’t fit into the component team model. The use of shared resources presents challenges to the agile planning model. I share how teams such as those providing infrastructure services and specialists can fit into a feature+component team model, and how variations such as embedding specialists in a scrum team can both present process challenges and add significant value to both the team and the larger organization.",
         "title": "Resolve the Contraction of Specialists and Agile Teams.",
-        "venue": "Agile Development Practices 2017 in Orlando",
+        "venue": "Agile Development Practices 2017 in Orlando, FL",
         "venueLink": "",
         "documentLink": "adc2017/ADC-2017-Berczuk_slides-2017-10-18.pdf"
     },
@@ -67,8 +67,8 @@
         "date": "October 2009",
         "parsedDate": "2009.10.01",
         "description": "I gave a tutorial: at the 2009 October 23, 2009 in Cambridge, MA",
-        "title": "I gave a tutorial: at the 2009 October 23, 2009 in Cambridge, MA",
-        "venue": "The 2009 Software Test & Performance Confererence",
+        "title": "SCM for Agile Teams",
+        "venue": "The 2009 Software Test & Performance Confererence in Cambridge, MA",
         "venueLink": "",
         "documentLink": "stp2009/berczuk-stpcon-2009-10-final.pdf"
     },
@@ -104,16 +104,18 @@ This tutorial will start with an overview of key SCM concepts, including codelin
     },
     {
         "date": "March 2008",
-        "parsedDate": "2008.03.01",
-        "description": "on March 27, 2008",
-        "title": "on March 27, 2008",
+        "parsedDate": "2008.03.27",
+        "description": "on March 27, 2008 I spoke about Developer workspaces and agility. Workspace Management is often an afterthought for teams, agile or not. For teams to work effectively developers need machanisms to help ensure that their changes will integrate well with others' work. Good workspace practices also improve team productivity by avoiding  "works for me" conversations and by decreasing ramp up times when people start new projects.
+
+This talk will discuss some of the patterns and practices for workspace management that you can apply to help developers be more effective.",
+        "title": "Developer Workspaces Enable Agile Teams",
         "venue": "New England Agile Bazaar (now Agile New England)",
         "venueLink": "",
         "documentLink": "boston/AgileBazaar-2008-03-handouts.pdf"
     },
     {
         "date": "March 2008",
-        "parsedDate": "2008.03.01",
+        "parsedDate": "2008.03.18",
         "description": "On March 18, 2008 I presented. Workspace Management is often an afterthought for teams, agile or not. For teams to work effectively developers need machanisms to help ensure that their changes will integrate well with others' work. Good workspace practices also improve team productivity by avoiding  "works for me" conversations and by decreasing ramp up times when people start new projects.
 
 This talk will discuss some of the patterns and practices for workspace management that you can apply to help developers be more effective.",
@@ -124,18 +126,27 @@ This talk will discuss some of the patterns and practices for workspace manageme
     },
     {
         "date": "September 2007",
-        "parsedDate": "2007.09.01",
-        "description": "I taught a class, and leading a Birds-of-a-Feather session, at .",
-        "title": "I taught a class, and leading a Birds-of-a-Feather session, at .",
-        "venue": "SD Best Practices 2007",
+        "parsedDate": "2007.09.19",
+        "description": "I  taught a class. All teams can benefit from more rapid feedback, agile teams more so. Many teams struggle because their software configuration management and build practices don’t help them or worse, get in their way.  Teams often struggle the questions of when to branch, how to create developer workspaces, and the role of testing is in an SCM process. In this presentation participants will learn how to create an effective development environment that allow for rapid change by using the right build, version management and testing practices. Participants are invited to come with questions relevant to their own situations",
+        "title": "Effective SCM: Better Feedback, Higher Quality and Happier Stakeholders",
+        "venue": "SD Best Practices 2007 in Boston MA",
+        "venueLink": "",
+        "documentLink": "sdbp2007/Berczuk_sdbp2007_Web.pdf"
+    },
+    {
+        "date": "September 2007",
+        "parsedDate": "2007.09.18",
+        "description": "I  lead a Birds-of-a-Feather session .",
+        "title": "Managing Change in an Almost Agile Environment",
+        "venue": "SD Best Practices 2007 in Boston MA",
         "venueLink": "",
         "documentLink": "sdbp2007/Berczuk_sdbp2007_Web.pdf"
     },
     {
         "date": "September 2006",
-        "parsedDate": "2006.09.01",
+        "parsedDate": "2006.09.14",
         "description": "On September 14, 2006 I taught a class, at .",
-        "title": "On September 14, 2006 I taught a class, at .",
+        "title": "Collaborate, Integrate, Test, Deploy: Essential SCM Practices for Teams",
         "venue": "SD Best Practices 2006",
         "venueLink": "",
         "documentLink": "sdbp2006/berczuk-effective-scm-sdbp2006.pdf"
