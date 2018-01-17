@@ -75,9 +75,7 @@
     {
         "date": "November 2008",
         "parsedDate": "2008.11.01",
-        "description": "I gave a tutorial: and a class, at the 2008 November 10-14, 2008 Orlando, FL. Version management, build, and release practices are a key part of an effective agile software development environment. Many teams are puzzled by how to translate standard SCM “Best Practices” to an agile environment. In a effort to move more quickly some teams ignore basic software configuration management practices with the result they  hit stumbling blocks down the line. Others maintain many of their old practices with the result that their teams are  less agile.
-
-This tutorial will start with an overview of key SCM concepts, including codeline management,, build and release, and branching. We will them discuss how basic SCM principles apply to an agile team, and how  you apply SCM Practices can help make your team more or less agile, and how they can ease the transition to agile when you have a legacy code base to work with. We’ll discuss questions such as when branching makes sense, when how using Scrum or XP affects how you think about version management, and the importance of simple but effective SCM practices to agile software development. Attendees should be familiar with some basic version management tools like CVS or subversion. This tutorial will focus on practices, not tools, but will reference tools such as ant, maven , subversion in examples.  Developers, team leads, project managers and release engineers will find this class useful.",
+        "description": "I gave a tutorial: and a class, at the 2008 November 10-14, 2008 Orlando, FL. Version management, build, and release practices are a key part of an effective agile software development environment. Many teams are puzzled by how to translate standard SCM “Best Practices” to an agile environment. In a effort to move more quickly some teams ignore basic software configuration management practices with the result they  hit stumbling blocks down the line. Others maintain many of their old practices with the result that their teams are  less agile. This tutorial will start with an overview of key SCM concepts, including codeline management,, build and release, and branching. We will them discuss how basic SCM principles apply to an agile team, and how  you apply SCM Practices can help make your team more or less agile, and how they can ease the transition to agile when you have a legacy code base to work with. We’ll discuss questions such as when branching makes sense, when how using Scrum or XP affects how you think about version management, and the importance of simple but effective SCM practices to agile software development. Attendees should be familiar with some basic version management tools like CVS or subversion. This tutorial will focus on practices, not tools, but will reference tools such as ant, maven , subversion in examples.  Developers, team leads, project managers and release engineers will find this class useful.",
         "title": "Software Configuration Management for Agile Development",
         "venue": "The 2008 Agile Development Practices Conference",
         "venueLink": "",
@@ -86,8 +84,7 @@ This tutorial will start with an overview of key SCM concepts, including codelin
     {
         "date": "November 2008",
         "parsedDate": "2008.11.01",
-        "description": "I gave  a class, at the 2008 November 10-14, 2008 Orlando, FL. Applying agile methods to legacy code is challenging. You have to live with code that is not as testable, or as modular as you’d like, and you have to manage support concerns that disrupt your iteration plan, while trying to establish new testing and build practices. Even if your project is agile, you may have dependencies on legacy projects that are not be delivering at iteration boundaries. Steve Berczuk explains how to be agile with a legacy code base using design, testing, build, and software configuration management practices so that you can be agile when your code is not while managing the flow of change required to support released code. At the end of the class you will better understand how to balance the requirements of working with an existing code base with the desire to have a more agile development environment.
-",
+        "description": "I gave  a class, at the 2008 November 10-14, 2008 Orlando, FL. Applying agile methods to legacy code is challenging. You have to live with code that is not as testable, or as modular as you’d like, and you have to manage support concerns that disrupt your iteration plan, Even if your project is agile, you may have dependencies on legacy projects that are not be delivering at iteration boundaries. I explain how to be agile with a legacy code base using design, testing, build, and software configuration management practices so that you can be agile when your code is not while managing the flow of change required to support released code. At the end of the class you will better understand how to balance the requirements of working with an existing code base with the desire to have a more agile development environment.",
         "title": "Getting Agile with Legacy Code",
         "venue": "The 2008 Agile Development Practices Conference in Orlando, FL",
         "venueLink": "",
@@ -105,9 +102,7 @@ This tutorial will start with an overview of key SCM concepts, including codelin
     {
         "date": "March 2008",
         "parsedDate": "2008.03.27",
-        "description": "on March 27, 2008 I spoke about Developer workspaces and agility. Workspace Management is often an afterthought for teams, agile or not. For teams to work effectively developers need machanisms to help ensure that their changes will integrate well with others' work. Good workspace practices also improve team productivity by avoiding  "works for me" conversations and by decreasing ramp up times when people start new projects.
-
-This talk will discuss some of the patterns and practices for workspace management that you can apply to help developers be more effective.",
+        "description": "on March 27, 2008 I spoke about Developer workspaces and agility. Workspace Management is often an afterthought for teams, agile or not. For teams to work effectively developers need machanisms to help ensure that their changes will integrate well with others' work. Good workspace practices also improve team productivity by avoiding works for me conversations and by decreasing ramp up times when people start new projects. This talk will discuss some of the patterns and practices for workspace management that you can apply to help developers be more effective.",
         "title": "Developer Workspaces Enable Agile Teams",
         "venue": "New England Agile Bazaar (now Agile New England)",
         "venueLink": "",
@@ -116,9 +111,7 @@ This talk will discuss some of the patterns and practices for workspace manageme
     {
         "date": "March 2008",
         "parsedDate": "2008.03.18",
-        "description": "On March 18, 2008 I presented. Workspace Management is often an afterthought for teams, agile or not. For teams to work effectively developers need machanisms to help ensure that their changes will integrate well with others' work. Good workspace practices also improve team productivity by avoiding  "works for me" conversations and by decreasing ramp up times when people start new projects.
-
-This talk will discuss some of the patterns and practices for workspace management that you can apply to help developers be more effective.",
+        "description": "On March 18, 2008 I presented. Workspace Management is often an afterthought for teams, agile or not. For teams to work effectively developers need machanisms to help ensure that their changes will integrate well with others' work. Good workspace practices also improve team productivity by avoiding  works for me conversations and by decreasing ramp up times when people start new projects. This talk will discuss some of the patterns and practices for workspace management that you can apply to help developers be more effective.",
         "title": "Developer Workspaces Enable Agile Teams",
         "venue": "Boston SPIN",
         "venueLink": "http://www.boston-spin.org/",

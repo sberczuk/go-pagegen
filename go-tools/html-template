@@ -1,9 +1,13 @@
 
 <!DOCTYPE html>
+
+<!-- based on view-source:https://www.jnd.org/dn.pubs.html -->
 <html>
 	<head>
 		<meta charset="utf-8">
 		<title>Press - jnd.org</title>
+		<link rel="stylesheet" href="screen.css" type="text/css" media="screen, projection">
+
 		<meta name="description" content="">
 		<meta name="author" content="">
 
