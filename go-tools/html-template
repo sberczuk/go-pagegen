@@ -1,45 +1,79 @@
 
 <!DOCTYPE html>
 
-<!-- based on view-source:https://www.jnd.org/dn.pubs.html -->
+<!-- based on view-source:https://www.jnd.org/dn.pubs.html
+also https://blueprintcss.io/docs/grid-->
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Press - jnd.org</title>
-		<link rel="stylesheet" href="screen.css" type="text/css" media="screen, projection">
+<head>
+	<meta charset="utf-8">
+	<title>Steve Berczuk's Presentations</title>
+	<!-- figure out the right style -->
+	<link href="https://unpkg.com/blueprint-css@3.0.0-alpha.3/dist/blueprint.min.css" rel="stylesheet" />
 
-		<meta name="description" content="">
-		<meta name="author" content="">
+	<link rel="stylesheet" href="screen.css" type="text/css" media="screen, projection">
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-    <body id="essays">
-    <section id="recent" class="span-15">
-            <h2>Presentations</h2>
+	<body id="essays">
+		<div class="container"> <!-- update this approproiately -->
+			<header id="site" class="">
+				<section id="global">
+					<span class="column span-5">
+						<a href="/"><img src="/assets/images/logo.jpg" /></a>
+					</span>
+					<span class="column span-13 title">
+						<h2>Don Norman: Designing For People</h2>
+					</span>
 
-{{range .}}
-<article>
-								<header>
-									<h3>
-                  {{if .DocumentLink}}
-                    <a href="{{.DocumentLink}}">{{.Title}}</a>
-										{{else}}
-										{{.Title}}
-                  {{end}}
-                  </h3>
-									<h4>
+				</section>
+				<nav class="clear">
+
+					<a href="/about.html" >About </a>
+					<a href="/books.html" >Books</a>
+					<a href="/dn.pubs.html" class="selected">Essays</a>
+					<a href="/recommended_readings.html" >Reading List</a>
+					<a href="/consulting.html" >Consulting &amp; Talks</a>
+					<a href="/press.html" >Interviews &amp; Videos</a>
+<!-- update to my site search -->
+					<form action="https://www.google.com/cse" id="cse-search-box">
+						<div>
+							<input type="hidden" name="cx" value="006834751107484296083:jruuzzbnjr8" />
+							<input type="hidden" name="ie" value="UTF-8" />
+							<input type="text" name="q" size="15" />
+							<input type="submit" name="sa" value="Search" />
+						</div>
+					</form>
+				</nav>
+			</header>
+			<div bp="8--max">
+				<section id="recent" class="span-15">
+					<h2>Presentations</h2>
+					<div class="demo">
+						{{range .}}
+						<article>
+							<header>
+								<h3>
+									{{if .DocumentLink}}
+									<a href="{{.DocumentLink}}">{{.Title}}</a>
+									{{else}}
+									{{.Title}}
+									{{end}}
+								</h3>
+								<h4>
 									{{if .VenueLink}}
 									<a href="{{.VenueLink}}">{{.Venue}}</a>
-										{{else}}
-										{{.Venue}} {{.Date}}
+									{{else}}
+									{{.Venue}} {{.Date}}
 									{{end}}
-									</h4>
-								</header>
-								<p>{{.Description}}</p>
-							</article>
+								</h4>
+							</header>
+							<p>{{.Description}}</p>
+						</article>
+						<hr/>
 
+						{{end}}
+					</div>
 
-{{end}}
+				</body>
 
-
-</body>
-
-</html>
+				</html>

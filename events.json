@@ -12,7 +12,7 @@
     {
         "date": "November 2017",
         "parsedDate": "2017.11.01",
-        "description": "I gave a class on how to use Specialists to fill gaps and also help agile teams become more self-sufficient. As teams grow, organizations often draw a distinction between feature teams, which deliver the visible business value to the user, and component teams, which manage shared work. Steve Berczuk says that this distinction can help organizations be more productive and scale effectively, but he recognizes that not all shared work fits into this model. Some work is best handled by “specialists,” that is people with unique skills. Although teams composed entirely of T-shaped people is ideal, certain skills are hard to come by and are used irregularly across an organization. Since these specialists often need to work closely with teams, rather than working from their own backlog, they don’t fit into the component team model. The use of shared resources presents challenges to the agile planning model. I share how teams such as those providing infrastructure services and specialists can fit into a feature+component team model, and how variations such as embedding specialists in a scrum team can both present process challenges and add significant value to both the team and the larger organization.",
+        "description": "I gave a class on how to use Specialists to fill gaps and also help agile teams become more self-sufficient. As teams grow, organizations often draw a distinction between feature teams, which deliver the visible business value to the user, and component teams, which manage shared work. This distinction can help organizations be more productive and scale effectively, but he recognizes that not all shared work fits into this model. Some work is best handled by “specialists,” that is people with unique skills. Although teams composed entirely of T-shaped people is ideal, certain skills are hard to come by and are used irregularly across an organization. Since these specialists often need to work closely with teams, rather than working from their own backlog, they don’t fit into the component team model. The use of shared resources presents challenges to the agile planning model. I share how teams such as those providing infrastructure services and specialists can fit into a feature+component team model, and how variations such as embedding specialists in a scrum team can both present process challenges and add significant value to both the team and the larger organization.",
         "title": "Resolve the Contraction of Specialists and Agile Teams.",
         "venue": "Agile Development Practices 2017 in Orlando, FL",
         "venueLink": "",
@@ -38,7 +38,7 @@
     },
     {
         "date": "November 2011",
-        "parsedDate": "2011.11.01",
+        "parsedDate": "2011.11.10",
         "description": "Agile software development relies on feedback, and the best feedback on the state of the project comes from seeing working software. Good version management, build and quality assurance are the technical practices that allow you to understand how far developed your system is and what needs to be done. We'll talk about the role of build, scm an QA in laying the foundation for a successful agile team, and discuss the role of DevOps in helping a team keep the agile contract of ready to ship code.",
         "title": "Agile Enablers",
         "venue": "Boston Software Process Improvement Network",
@@ -56,17 +56,17 @@
     },
     {
         "date": "February 2010",
-        "parsedDate": "2010.02.01",
+        "parsedDate": "2010.02.16",
         "description": "I was in a webinar: on 16 Feb 2010.",
-        "title": "I was in a webinar: on 16 Feb 2010.",
-        "venue": "Wan Disco Corporation",
+        "title": "Make Subversion Agile in a Distributed Environment.",
+        "venue": "Wan Disco Corporation Webinar",
         "venueLink": "http://www.wandisco.com/",
         "documentLink": "agile-svn-2010-02.pdf"
     },
     {
         "date": "October 2009",
-        "parsedDate": "2009.10.01",
-        "description": "I gave a tutorial: at the 2009 October 23, 2009 in Cambridge, MA",
+        "parsedDate": "2009.10.23",
+        "description": "I gave a tutorial at the 2009 October 23, 2009 in Cambridge, MA",
         "title": "SCM for Agile Teams",
         "venue": "The 2009 Software Test & Performance Confererence in Cambridge, MA",
         "venueLink": "",
@@ -75,7 +75,7 @@
     {
         "date": "November 2008",
         "parsedDate": "2008.11.01",
-        "description": "I gave a tutorial: and a class, at the 2008 November 10-14, 2008 Orlando, FL. Version management, build, and release practices are a key part of an effective agile software development environment. Many teams are puzzled by how to translate standard SCM “Best Practices” to an agile environment. In a effort to move more quickly some teams ignore basic software configuration management practices with the result they  hit stumbling blocks down the line. Others maintain many of their old practices with the result that their teams are  less agile. This tutorial will start with an overview of key SCM concepts, including codeline management,, build and release, and branching. We will them discuss how basic SCM principles apply to an agile team, and how  you apply SCM Practices can help make your team more or less agile, and how they can ease the transition to agile when you have a legacy code base to work with. We’ll discuss questions such as when branching makes sense, when how using Scrum or XP affects how you think about version management, and the importance of simple but effective SCM practices to agile software development. Attendees should be familiar with some basic version management tools like CVS or subversion. This tutorial will focus on practices, not tools, but will reference tools such as ant, maven , subversion in examples.  Developers, team leads, project managers and release engineers will find this class useful.",
+        "description": "I gave a tutorial November 10-14 2008 in Orlando, FL. Version management, build, and release practices are a key part of an effective agile software development environment. Many teams are puzzled by how to translate standard SCM “Best Practices” to an agile environment. In a effort to move more quickly some teams ignore basic software configuration management practices with the result they  hit stumbling blocks down the line. Others maintain many of their old practices with the result that their teams are  less agile. This tutorial will start with an overview of key SCM concepts, including codeline management,, build and release, and branching. We will them discuss how basic SCM principles apply to an agile team, and how  you apply SCM Practices can help make your team more or less agile, and how they can ease the transition to agile when you have a legacy code base to work with. We’ll discuss questions such as when branching makes sense, when how using Scrum or XP affects how you think about version management, and the importance of simple but effective SCM practices to agile software development. Attendees should be familiar with some basic version management tools like CVS or subversion. This tutorial will focus on practices, not tools, but will reference tools such as ant, maven , subversion in examples.  Developers, team leads, project managers and release engineers will find this class useful.",
         "title": "Software Configuration Management for Agile Development",
         "venue": "The 2008 Agile Development Practices Conference",
         "venueLink": "",
@@ -84,7 +84,7 @@
     {
         "date": "November 2008",
         "parsedDate": "2008.11.01",
-        "description": "I gave  a class, at the 2008 November 10-14, 2008 Orlando, FL. Applying agile methods to legacy code is challenging. You have to live with code that is not as testable, or as modular as you’d like, and you have to manage support concerns that disrupt your iteration plan, Even if your project is agile, you may have dependencies on legacy projects that are not be delivering at iteration boundaries. I explain how to be agile with a legacy code base using design, testing, build, and software configuration management practices so that you can be agile when your code is not while managing the flow of change required to support released code. At the end of the class you will better understand how to balance the requirements of working with an existing code base with the desire to have a more agile development environment.",
+        "description": "I gave  a class, at the 2008 Agile Development Practices Conference November 10-14, 2008 in Orlando, FL. Applying agile methods to legacy code is challenging. You have to live with code that is not as testable, or as modular as you’d like, and you have to manage support concerns that disrupt your iteration plan, Even if your project is agile, you may have dependencies on legacy projects that are not be delivering at iteration boundaries. I explain how to be agile with a legacy code base using design, testing, build, and software configuration management practices so that you can be agile when your code is not while managing the flow of change required to support released code. At the end of the class you will better understand how to balance the requirements of working with an existing code base with the desire to have a more agile development environment.",
         "title": "Getting Agile with Legacy Code",
         "venue": "The 2008 Agile Development Practices Conference in Orlando, FL",
         "venueLink": "",
@@ -93,7 +93,7 @@
     {
         "date": "October 2008",
         "parsedDate": "2008.10.01",
-        "description": "I lead a roundtable: at the 2008 October 30, 2008 in Boston, MA. Agile Methods discuss practices teams should follow, however, not all teams can, or should, follow every practice to the letter. It's hard to understand what practices you can compromise and which ones are important. Do you really have to test first? Or is soon OK? Can you adjust sprint boundaries mid-iteration? Some compromises to the agile dogma can be made while still staying in the spirit of your method. Some compromises make it harder to benefit from agile practices. In this session, you will learn how to make pragmatic decisions about how to practice -- and benefit from -- agile software development.",
+        "description": "I lead a roundtable at the 2008 October 30, 2008 in Boston, MA. Agile Methods discuss practices teams should follow, however, not all teams can, or should, follow every practice to the letter. It's hard to understand what practices you can compromise and which ones are important. Do you really have to test first? Or is soon OK? Can you adjust sprint boundaries mid-iteration? Some compromises to the agile dogma can be made while still staying in the spirit of your method. Some compromises make it harder to benefit from agile practices. In this session, you will learn how to make pragmatic decisions about how to practice -- and benefit from -- agile software development.",
         "title": "Roundtable on deciding how dogmatic to be about practices.",
         "venue": "SD Best Practices 2008, Boston, MA",
         "venueLink": "",
@@ -102,7 +102,7 @@
     {
         "date": "March 2008",
         "parsedDate": "2008.03.27",
-        "description": "on March 27, 2008 I spoke about Developer workspaces and agility. Workspace Management is often an afterthought for teams, agile or not. For teams to work effectively developers need machanisms to help ensure that their changes will integrate well with others' work. Good workspace practices also improve team productivity by avoiding works for me conversations and by decreasing ramp up times when people start new projects. This talk will discuss some of the patterns and practices for workspace management that you can apply to help developers be more effective.",
+        "description": ")n March 27, 2008 I spoke about Developer workspaces and agility. Workspace Management is often an afterthought for teams, agile or not. For teams to work effectively developers need machanisms to help ensure that their changes will integrate well with others' work. Good workspace practices also improve team productivity by avoiding works for me conversations and by decreasing ramp up times when people start new projects. This talk will discuss some of the patterns and practices for workspace management that you can apply to help developers be more effective.",
         "title": "Developer Workspaces Enable Agile Teams",
         "venue": "New England Agile Bazaar (now Agile New England)",
         "venueLink": "",
@@ -129,7 +129,7 @@
     {
         "date": "September 2007",
         "parsedDate": "2007.09.18",
-        "description": "I  lead a Birds-of-a-Feather session .",
+        "description": "I  lead a Birds-of-a-Feather session at SD Best Practices 2007.",
         "title": "Managing Change in an Almost Agile Environment",
         "venue": "SD Best Practices 2007 in Boston MA",
         "venueLink": "",
@@ -148,7 +148,7 @@
         "date": "March 2006",
         "parsedDate": "2006.03.01",
         "description": "On March 1, 2006 I participated in a webcast: Tofu and Patterns: Structuring Codelines for Agile Development with Laura Wingerd of Perforce Software. You can view a in PDF.",
-        "title": "On March 1, 2006 I participated in a webcast: Tofu and Patterns: Structuring Codelines for Agile Development with Laura Wingerd of Perforce Software. You can view a in PDF.",
+        "title": "Tofu and Patterns: Structuring Codelines for Agile Development",
         "venue": "",
         "venueLink": "",
         "documentLink": "webinars/Perforce2006_03-FINAL.pdf"
@@ -174,26 +174,26 @@
     {
         "date": "September 2005",
         "parsedDate": "2005.09.01",
-        "description": "September 2005: I gave a class Collaborate, Build, Test, Deploy: Essential SCM Practices for Teams at September 26-29, 2005 in Boston, MA. You can view a .",
-        "title": "September 2005: I gave a class Collaborate, Build, Test, Deploy: Essential SCM Practices for Teams at September 26-29, 2005 in Boston, MA. You can view a .",
+        "description": "I gave a class Collaborate, Build, Test, Deploy: Essential SCM Practices for Teams at September 26-29, 2005 in Boston, MA. ",
+        "title": "September 2005: I gave a class Collaborate, Build, Test, Deploy: Essential SCM Practices for Teams at September 26-29, 2005 in Boston, MA.",
         "venue": "SD Best Practices 2005",
         "venueLink": "",
         "documentLink": "sdbp2005/102.pdf"
     },
     {
         "date": "December 2004",
-        "parsedDate": "2004.12.01",
+        "parsedDate": "2004.12.08",
         "description": "December 2004: I gave a class, and moderated a panel discussion, at the December 7-9, 2004 in Baltimore, MD. You can view the from the class.",
-        "title": "December 2004: I gave a class, and moderated a panel discussion, at the December 7-9, 2004 in Baltimore, MD. You can view the from the class.",
+        "title": "Software Configuration Managememt in Context: Effective Teamwork, Practical Integration.",
         "venue": "The 2004 Software Test and Performance Conference",
         "venueLink": "http://www.stpcon.com/",
-        "documentLink": "http://www.stpcon.com/"
+        "documentLink": "stp2004/STP2004-classHandouts.pdf"
     },
     {
         "date": "September 2004",
         "parsedDate": "2004.09.01",
-        "description": "September 2004: I gave a Tutorial, Effective Teamwork and Practical Integration: Software Configuration Management in Context at in Boston, MA. You can view the from the class.",
-        "title": "September 2004: I gave a Tutorial, Effective Teamwork and Practical Integration: Software Configuration Management in Context at in Boston, MA. You can view the from the class.",
+        "description": "September 2004: I gave a Tutorial, Effective Teamwork and Practical Integration: Software Configuration Management in Context at in Boston, MA.",
+        "title": "Effective Teamwork and Practical Integration: Software Configuration Management in Context",
         "venue": "SD Best Practices 2004 in Boston",
         "venueLink": "",
         "documentLink": "sdbp2004/SDBP_Effective_Teamwork_handouts.pdf"
@@ -202,10 +202,10 @@
         "date": "September 2004",
         "parsedDate": "2004.09.01",
         "description": "September 2004: I was a shepherd for , the 10th Pattern Language of Programs Conference.",
-        "title": "September 2004: I was a shepherd for , the 10th Pattern Language of Programs Conference.",
+        "title": "Shepherd for , the 10th Pattern Language of Programs Conference.",
         "venue": "The 2004 Pattern Languages of Programs Conference",
         "venueLink": "http://hillside.net/plop/2004/",
-        "documentLink": "http://hillside.net/plop/2004"
+        "documentLink": ""
     },
     {
         "date": "June 2004",
@@ -219,8 +219,8 @@
     {
         "date": "October 2003",
         "parsedDate": "2003.10.01",
-        "description": "October 2003: I moderated a panel discussion at in Anaheim, CA",
-        "title": "October 2003: I moderated a panel discussion at in Anaheim, CA",
+        "description": "October 2003: I moderated a panel discussion at in Anaheim, CA.",
+        "title": "What's so eXtreme About Doing Things Right?",
         "venue": "OOPSLA 2003",
         "venueLink": "http://www.oopsla.org/oopsla2003",
         "documentLink": "/events/oopsla2003panel.html"
@@ -229,9 +229,9 @@
         "date": "June 2003",
         "parsedDate": "2003.06.01",
         "description": "June 2003: I gave a tutorial on at the in Salt Lake City, UT (June 25-28, 2003). You can view the from the tutorial.",
-        "title": "June 2003: I gave a tutorial on at the in Salt Lake City, UT (June 25-28, 2003). You can view the from the tutorial.",
+        "title": "Patterns for Agile Software Configuration Management",
         "venue": "The 2003 Agile Development Conferece",
         "venueLink": "http://www.agiledevelopmentconference.com",
-        "documentLink": "http://www.agiledevelopmentconference.com/"
+        "documentLink": "adc2003/adc2003Tutorial-handouts.pdf"
     }
 ]
